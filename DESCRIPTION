@@ -1,9 +1,9 @@
 Package: nonpar
 Type: Package
-Title: What the package does (short line)
-Version: 1.0
-Date: 2015-02-19
-Author: Who wrote it
-Maintainer: Who to complain to <yourfault@somewhere.net>
-Description: More about what it does (maybe more than one line)
-License: What license is it under?
+Title: Methods for non-parametric analysis
+Version: 0.0-1
+Date: 2015-02-25
+Author: Theo Pepler
+Maintainer: Theo Pepler <tpepler@sun.ac.za>
+Description: This package contains methods for non-parametric data analysis. At the moment only some tests for the two-sample location-scale problem are given, but more will be added in future versions.
+License: GPL-2
