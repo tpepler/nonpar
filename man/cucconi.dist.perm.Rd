@@ -13,8 +13,8 @@ cucconi.dist.perm(x, y, reps = 1000)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{x }{Vector of values.}
-  \item{y }{Vector of values.}
+  \item{x }{Vector of values from the first group.}
+  \item{y }{Vector of values from the second group.}
   \item{reps }{Number of permutations to use.}
 }
 \details{

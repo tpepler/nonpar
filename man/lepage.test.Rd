@@ -35,6 +35,8 @@ Returns a list containing the following components:
 \item{p.val }{Upper tail P-value.}
 }
 \references{
+Lepage, Y. (1971). A combination of Wilcoxon's and Ansari-Bradley's statistics. Biometrika, 58(1): 213-217.
+
 Hollander, M., Wolfe, D.A. and Chicken, E. (2014). Nonparametric Statistical Methods. Wiley.
 }
 \author{

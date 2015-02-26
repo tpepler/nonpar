@@ -1,27 +1,23 @@
-\name{boot.t.test}
-\alias{boot.t.test}
+\name{podgast.test}
+\alias{podgast.test}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{Bootstrap t-test
+\title{Podgor-Gastwirth test
 %%  ~~function to do ... ~~
 }
 \description{
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
-Performs the bootstrap t-test as described in Algorithm 16.2 in Efron and Tibshirani (1993).
+Performs the Podgor-Gastwirth test for the two-sample location-scale problem.
 }
 \usage{
-boot.t.test(x, y, reps = 1000, mu = 0, alternative = c("two.sided", "less", "greater"))
+podgast.test(x, y)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{x }{Vector of values from the first group.}
   \item{y }{Vector of values from the second group.}
-  \item{reps }{Number of bootstrap replications to use.}
-  \item{mu }{Null hypothesised difference between the group means.}
-  \item{alternative }{The alternative hypothesis to use (default = "two.sided").}
 }
 \details{
 %%  ~~ If necessary, more details than the description above ~~
-The numerator of the test statistic is calculated as \code{(x - y) - mu}.
 }
 \value{
 %%  ~Describe the value returned
@@ -30,14 +26,14 @@ The numerator of the test statistic is calculated as \code{(x - y) - mu}.
 %%  \item{comp2 }{Description of 'comp2'}
 %% ...
 Returns a list containing the following items:
-\item{mu0 }{The null hypothesised difference.}
 \item{statistic }{The test statistic.}
-\item{alternative }{Alternative hypothesis.}
 \item{p.value }{The p-value for the test.}
 }
 \references{
 %% ~put references to the literature/web site here ~
-Efron, B. and Tibshirani, R. (1993). An Introduction to the Bootstrap. Chapman and Hall/CRC.
+Podgor, M.J. and Gastwirth, J.L. (1994). On non-parametric and generalized tests for the two-sample problem with location and scale change alternatives. Statistics in Medicine, 13(5-7): 747-758.
+
+Marozzi, M. (2013). Nonparametric simultaneous tests for location and scale testing: A comparison of several methods. Communications in Statistics - Simulation and Computation, 42(6): 1298-1317.
 }
 \author{
 %%  ~~who you are~~
@@ -53,10 +49,9 @@ Theo Pepler
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
-xvec <- rnorm(15)
-yvec <- rnorm(15) - 0.7
-boot.t.test(x = xvec, y = yvec)
-boot.t.test(x = xvec, y = yvec, mu = 0.7)
+xvec <- rnorm(30)
+yvec <- rnorm(30) * 1.3 + 0.5
+podgast.test(x = xvec, y = yvec)
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.

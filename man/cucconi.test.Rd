@@ -14,8 +14,8 @@ cucconi.test(x, y, method = c("permutation", "bootstrap"))
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{x }{Vector of values.}
-  \item{y }{Vector of values.}
+  \item{x }{Vector of values from the first group.}
+  \item{y }{Vector of values from the second group.}
   \item{method }{Method used to estimate the distribution of the test statistic under the null hypothesis (default = "permutation").}
 }
 \details{
