@@ -18,6 +18,7 @@ License: \tab GPL-2\cr
 }
 \author{
 Theo Pepler
+
 Maintainer: Theo Pepler <tpepler@sun.ac.za>
 }
 \references{
