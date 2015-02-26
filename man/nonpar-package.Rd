@@ -2,7 +2,7 @@
 \alias{nonpar-package}
 \alias{nonpar}
 \docType{package}
-\title{Non-parametric methods
+\title{Collection of methods for non-parametric analysis
 }
 \description{Collection of methods for non-parametric analysis. At the moment only some tests for the two-sample location-scale problem are given, but more will be added in future versions.
 }
