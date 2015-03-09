@@ -10,8 +10,8 @@
 \tabular{ll}{
 Package: \tab nonpar\cr
 Type: \tab Package\cr
-Version: \tab 0.0-1\cr
-Date: \tab 2015-02-26\cr
+Version: \tab 0.1-0\cr
+Date: \tab 2015-03-09\cr
 License: \tab GPL-2\cr
 }
 

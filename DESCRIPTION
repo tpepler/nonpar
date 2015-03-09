@@ -1,8 +1,8 @@
 Package: nonpar
 Type: Package
 Title: Collection of methods for non-parametric analysis
-Version: 0.0-1
-Date: 2015-02-25
+Version: 0.1-0
+Date: 2015-03-09
 Author: Theo Pepler
 Maintainer: Theo Pepler <tpepler@sun.ac.za>
 Description: This package contains methods for non-parametric data analysis. At the moment only some tests for the two-sample location-scale problem are given, but more will be added in future versions.
