@@ -108,20 +108,20 @@ lepage.test <- function(x, y = NA, g = NA, method = NA, n.mc = 10000){
       theor.dist[i] <- D.calc(possible.C[i, ], possible.W[i, ])
     }
     
-    outp$p.val <- mean(theor.dist >= outp$obs.stat)
+    outp$p.value <- mean(theor.dist >= outp$obs.stat)
   }
   
   if(outp$method == "Asymptotic"){
-    outp$p.val <- (1 - pchisq(outp$obs.stat, 2))
+    outp$p.value <- (1 - pchisq(outp$obs.stat, 2))
   }
   
   if(outp$method == "Monte Carlo"){
-    outp$p.val <- 0
+    outp$p.value <- 0
     for(i in 1:n.mc){
       mc.sample <- sample(1:N, n)
       
       if(D.calc(tmp.C[mc.sample], tmp.W[mc.sample]) >= outp$obs.stat){
-        outp$p.val = outp$p.val + 1 / n.mc
+        outp$p.value = outp$p.value + 1 / n.mc
       }
     }
   }
@@ -129,7 +129,7 @@ lepage.test <- function(x, y = NA, g = NA, method = NA, n.mc = 10000){
   cat("\nLepage two-sample location-scale test\n")
   cat("\nNull hypothesis: The locations and scales of the two population distributions are equal.\n")
   cat("Alternative hypothesis: The locations and/or scales of the two population distributions differ.\n")
-  cat(paste("\nD = ", round(outp$obs.stat, 3), ", p-value = ", round(outp$p.val, 4), "\n\n", sep=""))
+  cat(paste("\nD = ", round(outp$obs.stat, 3), ", p-value = ", round(outp$p.value, 4), "\n\n", sep=""))
   
   #class(outp)="NSM3Ch5p"
   return(outp)

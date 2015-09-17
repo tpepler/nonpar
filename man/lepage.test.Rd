@@ -32,7 +32,7 @@ Returns a list containing the following components:
 \item{m }{Number of observations in the first data group (X).}
 \item{n }{Number of observations in the second data group (Y).}
 \item{obs.stat }{The observed C statistic.}
-\item{p.val }{Upper tail P-value.}
+\item{p.value }{Upper tail P-value.}
 }
 \references{
 Lepage, Y. (1971). A combination of Wilcoxon's and Ansari-Bradley's statistics. Biometrika, 58(1): 213-217.
