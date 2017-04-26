@@ -7,4 +7,4 @@ Author: Theo Pepler
 Maintainer: Theo Pepler <theo.pepler@glasgow.ac.uk>
 Description: This package contains methods for non-parametric data analysis. At the moment only some tests for the two-sample location-scale problem are given, but more will be added in future versions.
 License: GPL-2
-Depends: gtools
+Imports: gtools
