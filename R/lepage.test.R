@@ -98,7 +98,7 @@ lepage.test <- function(x, y = NA, g = NA, method = NA, n.mc = 10000){
   outp$obs.stat <- D.calc(tmp.C[(m + 1):N], tmp.W[(m + 1):N])
   
   if(outp$method == "Exact"){
-    possible.orders <- combinations(outp$m + outp$n, outp$n)
+    possible.orders <- gtools::combinations(outp$m + outp$n, outp$n)
     
     possible.C <- t(apply(possible.orders, 1, function(x) tmp.C[x]))
     possible.W <- t(apply(possible.orders, 1, function(x) tmp.W[x]))
