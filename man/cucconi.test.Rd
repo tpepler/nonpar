@@ -18,9 +18,6 @@ cucconi.test(x, y, method = c("permutation", "bootstrap"))
   \item{y }{Vector of values from the second group.}
   \item{method }{Method used to estimate the distribution of the test statistic under the null hypothesis (default = "permutation").}
 }
-\details{
-%%  ~~ If necessary, more details than the description above ~~
-}
 \value{
 %%  ~Describe the value returned
 %%  If it is a LIST, use
@@ -44,9 +41,6 @@ Marozzi, M. (2009). Some notes on the location-scale Cucconi test. Journal of No
 %%  ~~who you are~~
 Theo Pepler
 }
-\note{
-%%  ~~further notes~~
-}
 
 %% ~Make other sections like Warning with \section{Warning }{....} ~
 
@@ -60,7 +54,3 @@ yvec <- rnorm(30) * 1.3 + 0.5
 cucconi.test(x = xvec, y = yvec)
 cucconi.test(x = xvec, y = yvec, method = "bootstrap")
 }
-% Add one or more standard keywords, see file 'KEYWORDS' in the
-% R documentation directory.
-\keyword{ ~kwd1 }
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line

@@ -10,8 +10,8 @@
 \tabular{ll}{
 Package: \tab nonpar\cr
 Type: \tab Package\cr
-Version: \tab 0.1-0\cr
-Date: \tab 2015-03-09\cr
+Version: \tab 0.1-3\cr
+Date: \tab 2023-05-09\cr
 License: \tab GPL-2\cr
 }
 
@@ -19,12 +19,6 @@ License: \tab GPL-2\cr
 \author{
 Theo Pepler
 
-Maintainer: Theo Pepler <tpepler@sun.ac.za>
-}
-\references{
+Maintainer: Theo Pepler <theo.pepler@glasgow.ac.uk>
 }
 \keyword{ package }
-\seealso{
-}
-\examples{
-}

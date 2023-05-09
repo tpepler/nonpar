@@ -16,9 +16,6 @@ podgast.test(x, y)
   \item{x }{Vector of values from the first group.}
   \item{y }{Vector of values from the second group.}
 }
-\details{
-%%  ~~ If necessary, more details than the description above ~~
-}
 \value{
 %%  ~Describe the value returned
 %%  If it is a LIST, use
@@ -39,21 +36,8 @@ Marozzi, M. (2013). Nonparametric simultaneous tests for location and scale test
 %%  ~~who you are~~
 Theo Pepler
 }
-\note{
-%%  ~~further notes~~
-}
-
-%% ~Make other sections like Warning with \section{Warning }{....} ~
-
-\seealso{
-%% ~~objects to See Also as \code{\link{help}}, ~~~
-}
 \examples{
 xvec <- rnorm(30)
 yvec <- rnorm(30) * 1.3 + 0.5
 podgast.test(x = xvec, y = yvec)
 }
-% Add one or more standard keywords, see file 'KEYWORDS' in the
-% R documentation directory.
-\keyword{ ~kwd1 }
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line

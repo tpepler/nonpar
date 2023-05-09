@@ -43,22 +43,12 @@ Efron, B. and Tibshirani, R. (1993). An Introduction to the Bootstrap. Chapman a
 %%  ~~who you are~~
 Theo Pepler
 }
-\note{
-%%  ~~further notes~~
-}
 
 %% ~Make other sections like Warning with \section{Warning }{....} ~
 
-\seealso{
-%% ~~objects to See Also as \code{\link{help}}, ~~~
-}
 \examples{
 xvec <- rnorm(15)
 yvec <- rnorm(15) - 0.7
 boot.t.test(x = xvec, y = yvec)
 boot.t.test(x = xvec, y = yvec, mu = 0.7)
 }
-% Add one or more standard keywords, see file 'KEYWORDS' in the
-% R documentation directory.
-\keyword{ ~kwd1 }
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line

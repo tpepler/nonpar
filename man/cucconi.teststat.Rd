@@ -43,10 +43,6 @@ Marozzi, M. (2009). Some notes on the location-scale Cucconi test. Journal of No
 %%  ~~who you are~~
 Theo Pepler
 }
-\note{
-%%  ~~further notes~~
-}
-
 %% ~Make other sections like Warning with \section{Warning }{....} ~
 
 \seealso{
@@ -58,7 +54,3 @@ xvec <- rnorm(30)
 yvec <- rnorm(30) * 1.3 + 0.5
 cucconi.teststat(x = xvec, y = yvec)
 }
-% Add one or more standard keywords, see file 'KEYWORDS' in the
-% R documentation directory.
-\keyword{ ~kwd1 }
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line
